@@ -12,7 +12,6 @@ func main() {
 		for j := i; j <= len(str); j++ {
 			s := str[i:j]
 			if len(s) > maxLen && isPolindrom(s) {
-				fmt.Println(s)
 				maxLen = len(s)
 			}
 		}
